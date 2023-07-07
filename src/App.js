@@ -1,10 +1,16 @@
+import Count from './Components/Count';
 
-import './App.css';
+import React,{useState} from 'react'
+
 
 function App() {
+
+  
   return (
    <div>
-    hello
+    
+    <Count/>
+  
    </div>
   );
 }
